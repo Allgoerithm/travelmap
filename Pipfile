@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "*"
+httpx = "*"
+fastexcel = "*"
+polars = {extras = ["plot"], version = "*"}
+matplotlib = "*"
+cartopy = "*"
+geoviews = "*"
+xyzservices = "*"
+scipy = "*"
+owslib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
